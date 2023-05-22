@@ -1,0 +1,295 @@
+[
+    {
+        "label": "Produto",
+        "importPath": "produto",
+        "description": "produto",
+        "isExtraImport": true,
+        "detail": "produto",
+        "documentation": {}
+    },
+    {
+        "label": "Produto",
+        "importPath": "produto",
+        "description": "produto",
+        "isExtraImport": true,
+        "detail": "produto",
+        "documentation": {}
+    },
+    {
+        "label": "Mouse",
+        "importPath": "mouse",
+        "description": "mouse",
+        "isExtraImport": true,
+        "detail": "mouse",
+        "documentation": {}
+    },
+    {
+        "label": "Livro",
+        "importPath": "livro",
+        "description": "livro",
+        "isExtraImport": true,
+        "detail": "livro",
+        "documentation": {}
+    },
+    {
+        "label": "anos",
+        "kind": 5,
+        "importPath": "tarefa010.1",
+        "description": "tarefa010.1",
+        "peekOfCode": "anos = int(input(\"Digite a idade em anos: \"))\nmeses = int(input(\"Digite a idade em meses: \"))\ndias = int(input(\"Digite a idade em dias: \"))\ntotal_dias = anos * 365 + meses * 30 + dias\nprint(\"A idade em dias é:\", total_dias)",
+        "detail": "tarefa010.1",
+        "documentation": {}
+    },
+    {
+        "label": "meses",
+        "kind": 5,
+        "importPath": "tarefa010.1",
+        "description": "tarefa010.1",
+        "peekOfCode": "meses = int(input(\"Digite a idade em meses: \"))\ndias = int(input(\"Digite a idade em dias: \"))\ntotal_dias = anos * 365 + meses * 30 + dias\nprint(\"A idade em dias é:\", total_dias)",
+        "detail": "tarefa010.1",
+        "documentation": {}
+    },
+    {
+        "label": "dias",
+        "kind": 5,
+        "importPath": "tarefa010.1",
+        "description": "tarefa010.1",
+        "peekOfCode": "dias = int(input(\"Digite a idade em dias: \"))\ntotal_dias = anos * 365 + meses * 30 + dias\nprint(\"A idade em dias é:\", total_dias)",
+        "detail": "tarefa010.1",
+        "documentation": {}
+    },
+    {
+        "label": "total_dias",
+        "kind": 5,
+        "importPath": "tarefa010.1",
+        "description": "tarefa010.1",
+        "peekOfCode": "total_dias = anos * 365 + meses * 30 + dias\nprint(\"A idade em dias é:\", total_dias)",
+        "detail": "tarefa010.1",
+        "documentation": {}
+    },
+    {
+        "label": "media1",
+        "kind": 5,
+        "importPath": "tarefa010.2",
+        "description": "tarefa010.2",
+        "peekOfCode": "media1 = (8 + 9 + 7) / 3\nmedia2 = (4 + 5 + 6) / 3\nsoma_medias = media1 + media2\nmedia_medias = soma_medias / 2\nprint(\"Média 1:\", media1)\nprint(\"Média 2:\", media2)\nprint(\"Soma das médias:\", soma_medias)\nprint(\"Média das médias:\", media_medias)",
+        "detail": "tarefa010.2",
+        "documentation": {}
+    },
+    {
+        "label": "media2",
+        "kind": 5,
+        "importPath": "tarefa010.2",
+        "description": "tarefa010.2",
+        "peekOfCode": "media2 = (4 + 5 + 6) / 3\nsoma_medias = media1 + media2\nmedia_medias = soma_medias / 2\nprint(\"Média 1:\", media1)\nprint(\"Média 2:\", media2)\nprint(\"Soma das médias:\", soma_medias)\nprint(\"Média das médias:\", media_medias)",
+        "detail": "tarefa010.2",
+        "documentation": {}
+    },
+    {
+        "label": "soma_medias",
+        "kind": 5,
+        "importPath": "tarefa010.2",
+        "description": "tarefa010.2",
+        "peekOfCode": "soma_medias = media1 + media2\nmedia_medias = soma_medias / 2\nprint(\"Média 1:\", media1)\nprint(\"Média 2:\", media2)\nprint(\"Soma das médias:\", soma_medias)\nprint(\"Média das médias:\", media_medias)",
+        "detail": "tarefa010.2",
+        "documentation": {}
+    },
+    {
+        "label": "media_medias",
+        "kind": 5,
+        "importPath": "tarefa010.2",
+        "description": "tarefa010.2",
+        "peekOfCode": "media_medias = soma_medias / 2\nprint(\"Média 1:\", media1)\nprint(\"Média 2:\", media2)\nprint(\"Soma das médias:\", soma_medias)\nprint(\"Média das médias:\", media_medias)",
+        "detail": "tarefa010.2",
+        "documentation": {}
+    },
+    {
+        "label": "saldo",
+        "kind": 5,
+        "importPath": "tarefa010.3",
+        "description": "tarefa010.3",
+        "peekOfCode": "saldo = float(input(\"Digite o valor do saldo: \"))\nsaldo_reajustado = saldo * 1.15\nprint(\"Saldo reajustado:\", saldo_reajustado)",
+        "detail": "tarefa010.3",
+        "documentation": {}
+    },
+    {
+        "label": "saldo_reajustado",
+        "kind": 5,
+        "importPath": "tarefa010.3",
+        "description": "tarefa010.3",
+        "peekOfCode": "saldo_reajustado = saldo * 1.15\nprint(\"Saldo reajustado:\", saldo_reajustado)",
+        "detail": "tarefa010.3",
+        "documentation": {}
+    },
+    {
+        "label": "ipi",
+        "kind": 5,
+        "importPath": "tarefa010.4",
+        "description": "tarefa010.4",
+        "peekOfCode": "ipi = float(input(\"Digite a porcentagem do IPI: \"))\ncodigo1 = int(input(\"Digite o código da peça 1: \"))\nvalor1 = float(input(\"Digite o valor unitário da peça 1: \"))\nquant1 = int(input(\"Digite a quantidade de peças 1: \"))\ncodigo2 = int(input(\"Digite o código da peça 2: \"))\nvalor2 = float(input(\"Digite o valor unitário da peça 2: \"))\nquant2 = int(input(\"Digite a quantidade de peças 2: \"))\ntotal = (valor1 * quant1 + valor2 * quant2) * (ipi / 100 + 1)\nprint(\"Valor total a ser pago:\", total)",
+        "detail": "tarefa010.4",
+        "documentation": {}
+    },
+    {
+        "label": "codigo1",
+        "kind": 5,
+        "importPath": "tarefa010.4",
+        "description": "tarefa010.4",
+        "peekOfCode": "codigo1 = int(input(\"Digite o código da peça 1: \"))\nvalor1 = float(input(\"Digite o valor unitário da peça 1: \"))\nquant1 = int(input(\"Digite a quantidade de peças 1: \"))\ncodigo2 = int(input(\"Digite o código da peça 2: \"))\nvalor2 = float(input(\"Digite o valor unitário da peça 2: \"))\nquant2 = int(input(\"Digite a quantidade de peças 2: \"))\ntotal = (valor1 * quant1 + valor2 * quant2) * (ipi / 100 + 1)\nprint(\"Valor total a ser pago:\", total)",
+        "detail": "tarefa010.4",
+        "documentation": {}
+    },
+    {
+        "label": "valor1",
+        "kind": 5,
+        "importPath": "tarefa010.4",
+        "description": "tarefa010.4",
+        "peekOfCode": "valor1 = float(input(\"Digite o valor unitário da peça 1: \"))\nquant1 = int(input(\"Digite a quantidade de peças 1: \"))\ncodigo2 = int(input(\"Digite o código da peça 2: \"))\nvalor2 = float(input(\"Digite o valor unitário da peça 2: \"))\nquant2 = int(input(\"Digite a quantidade de peças 2: \"))\ntotal = (valor1 * quant1 + valor2 * quant2) * (ipi / 100 + 1)\nprint(\"Valor total a ser pago:\", total)",
+        "detail": "tarefa010.4",
+        "documentation": {}
+    },
+    {
+        "label": "quant1",
+        "kind": 5,
+        "importPath": "tarefa010.4",
+        "description": "tarefa010.4",
+        "peekOfCode": "quant1 = int(input(\"Digite a quantidade de peças 1: \"))\ncodigo2 = int(input(\"Digite o código da peça 2: \"))\nvalor2 = float(input(\"Digite o valor unitário da peça 2: \"))\nquant2 = int(input(\"Digite a quantidade de peças 2: \"))\ntotal = (valor1 * quant1 + valor2 * quant2) * (ipi / 100 + 1)\nprint(\"Valor total a ser pago:\", total)",
+        "detail": "tarefa010.4",
+        "documentation": {}
+    },
+    {
+        "label": "codigo2",
+        "kind": 5,
+        "importPath": "tarefa010.4",
+        "description": "tarefa010.4",
+        "peekOfCode": "codigo2 = int(input(\"Digite o código da peça 2: \"))\nvalor2 = float(input(\"Digite o valor unitário da peça 2: \"))\nquant2 = int(input(\"Digite a quantidade de peças 2: \"))\ntotal = (valor1 * quant1 + valor2 * quant2) * (ipi / 100 + 1)\nprint(\"Valor total a ser pago:\", total)",
+        "detail": "tarefa010.4",
+        "documentation": {}
+    },
+    {
+        "label": "valor2",
+        "kind": 5,
+        "importPath": "tarefa010.4",
+        "description": "tarefa010.4",
+        "peekOfCode": "valor2 = float(input(\"Digite o valor unitário da peça 2: \"))\nquant2 = int(input(\"Digite a quantidade de peças 2: \"))\ntotal = (valor1 * quant1 + valor2 * quant2) * (ipi / 100 + 1)\nprint(\"Valor total a ser pago:\", total)",
+        "detail": "tarefa010.4",
+        "documentation": {}
+    },
+    {
+        "label": "quant2",
+        "kind": 5,
+        "importPath": "tarefa010.4",
+        "description": "tarefa010.4",
+        "peekOfCode": "quant2 = int(input(\"Digite a quantidade de peças 2: \"))\ntotal = (valor1 * quant1 + valor2 * quant2) * (ipi / 100 + 1)\nprint(\"Valor total a ser pago:\", total)",
+        "detail": "tarefa010.4",
+        "documentation": {}
+    },
+    {
+        "label": "total",
+        "kind": 5,
+        "importPath": "tarefa010.4",
+        "description": "tarefa010.4",
+        "peekOfCode": "total = (valor1 * quant1 + valor2 * quant2) * (ipi / 100 + 1)\nprint(\"Valor total a ser pago:\", total)",
+        "detail": "tarefa010.4",
+        "documentation": {}
+    },
+    {
+        "label": "salario_minimo",
+        "kind": 5,
+        "importPath": "tarefa010.5",
+        "description": "tarefa010.5",
+        "peekOfCode": "salario_minimo = 1045\nsalario_usuario = float(input(\"Digite o valor do salário do usuário: \"))\nquantidade_salarios = salario_usuario / salario_minimo\nprint(\"O usuário ganha\", quantidade_salarios, \"salários mínimos\")",
+        "detail": "tarefa010.5",
+        "documentation": {}
+    },
+    {
+        "label": "salario_usuario",
+        "kind": 5,
+        "importPath": "tarefa010.5",
+        "description": "tarefa010.5",
+        "peekOfCode": "salario_usuario = float(input(\"Digite o valor do salário do usuário: \"))\nquantidade_salarios = salario_usuario / salario_minimo\nprint(\"O usuário ganha\", quantidade_salarios, \"salários mínimos\")",
+        "detail": "tarefa010.5",
+        "documentation": {}
+    },
+    {
+        "label": "quantidade_salarios",
+        "kind": 5,
+        "importPath": "tarefa010.5",
+        "description": "tarefa010.5",
+        "peekOfCode": "quantidade_salarios = salario_usuario / salario_minimo\nprint(\"O usuário ganha\", quantidade_salarios, \"salários mínimos\")",
+        "detail": "tarefa010.5",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "tarefa010.6",
+        "description": "tarefa010.6",
+        "peekOfCode": "numero = int(input(\"Digite um número inteiro: \"))\nantecessor = numero - 1\nsucessor = numero + 1\nprint(\"Antecessor:\", antecessor)\nprint(\"Sucessor:\", sucessor)",
+        "detail": "tarefa010.6",
+        "documentation": {}
+    },
+    {
+        "label": "antecessor",
+        "kind": 5,
+        "importPath": "tarefa010.6",
+        "description": "tarefa010.6",
+        "peekOfCode": "antecessor = numero - 1\nsucessor = numero + 1\nprint(\"Antecessor:\", antecessor)\nprint(\"Sucessor:\", sucessor)",
+        "detail": "tarefa010.6",
+        "documentation": {}
+    },
+    {
+        "label": "sucessor",
+        "kind": 5,
+        "importPath": "tarefa010.6",
+        "description": "tarefa010.6",
+        "peekOfCode": "sucessor = numero + 1\nprint(\"Antecessor:\", antecessor)\nprint(\"Sucessor:\", sucessor)",
+        "detail": "tarefa010.6",
+        "documentation": {}
+    },
+    {
+        "label": "Livro",
+        "kind": 6,
+        "importPath": "tarefa011.exercicio02.livro",
+        "description": "tarefa011.exercicio02.livro",
+        "peekOfCode": "class Livro(Produto):\n    def __init__(self, nomeloja, preco, autor):\n        super().__init__(nomeloja, preco)\n        self._autor = autor\n    def get_autor(self):\n        return self._autor\n    def set_autor(self, autor):\n        self._autor = autor\n    def get_descricao(self):\n        return super().get_descricao() + f\", {self._autor}\"",
+        "detail": "tarefa011.exercicio02.livro",
+        "documentation": {}
+    },
+    {
+        "label": "Mouse",
+        "kind": 6,
+        "importPath": "tarefa011.exercicio02.mouse",
+        "description": "tarefa011.exercicio02.mouse",
+        "peekOfCode": "class Mouse(Produto):\n    def __init__(self, nomeloja, preco, tipo):\n        super().__init__(nomeloja, preco)\n        self._tipo = tipo\n    def get_tipo(self):\n        return self._tipo\n    def set_tipo(self, tipo):\n        self._tipo = tipo\n    def get_descricao(self):\n        return super().get_descricao() + f\", {self._tipo}\"",
+        "detail": "tarefa011.exercicio02.mouse",
+        "documentation": {}
+    },
+    {
+        "label": "Produto",
+        "kind": 6,
+        "importPath": "tarefa011.exercicio02.produto",
+        "description": "tarefa011.exercicio02.produto",
+        "peekOfCode": "class Produto:\n    def __init__(self, nomeloja, preco):\n        self._nomeloja = nomeloja\n        self._preco = preco\n        self._descricao = \"Produto de informática\"\n    def get_nomeloja(self):\n        return self._nomeloja\n    def set_nomeloja(self, nomeloja):\n        self._nomeloja = nomeloja\n    def get_preco(self):",
+        "detail": "tarefa011.exercicio02.produto",
+        "documentation": {}
+    },
+    {
+        "label": "ProdutoTeste",
+        "kind": 6,
+        "importPath": "tarefa011.exercicio02.produto_teste",
+        "description": "tarefa011.exercicio02.produto_teste",
+        "peekOfCode": "class ProdutoTeste:\n    def __init__(self):\n        self.carrinho = []\n    def adicionar_ao_carrinho(self, produto):\n        self.carrinho.append(produto)\n    def exibir_descricao_carrinho(self):\n        for produto in self.carrinho:\n            print(produto.get_descricao())\nproduto_teste = ProdutoTeste()\nproduto_teste.adicionar_ao_carrinho(Mouse(\"Loja A\", 50.0, \"Mouse óptico, Saída USB. 1.600 dpi\"))",
+        "detail": "tarefa011.exercicio02.produto_teste",
+        "documentation": {}
+    },
+    {
+        "label": "produto_teste",
+        "kind": 5,
+        "importPath": "tarefa011.exercicio02.produto_teste",
+        "description": "tarefa011.exercicio02.produto_teste",
+        "peekOfCode": "produto_teste = ProdutoTeste()\nproduto_teste.adicionar_ao_carrinho(Mouse(\"Loja A\", 50.0, \"Mouse óptico, Saída USB. 1.600 dpi\"))\nproduto_teste.adicionar_ao_carrinho(Livro(\"Loja B\", 30.0, \"Autor 1\"))\nproduto_teste.adicionar_ao_carrinho(Livro(\"Loja C\", 40.0, \"Autor 2\"))\nproduto_teste.adicionar_ao_carrinho(Mouse(\"Loja D\", 25.0, \"Mouse Logitech\"))\nproduto_teste.exibir_descricao_carrinho()",
+        "detail": "tarefa011.exercicio02.produto_teste",
+        "documentation": {}
+    }
+]
