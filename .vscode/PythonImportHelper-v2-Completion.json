@@ -16,6 +16,30 @@
         "documentation": {}
     },
     {
+        "label": "Produto",
+        "importPath": "produto",
+        "description": "produto",
+        "isExtraImport": true,
+        "detail": "produto",
+        "documentation": {}
+    },
+    {
+        "label": "Produto",
+        "importPath": "produto",
+        "description": "produto",
+        "isExtraImport": true,
+        "detail": "produto",
+        "documentation": {}
+    },
+    {
+        "label": "Mouse",
+        "importPath": "mouse",
+        "description": "mouse",
+        "isExtraImport": true,
+        "detail": "mouse",
+        "documentation": {}
+    },
+    {
         "label": "Mouse",
         "importPath": "mouse",
         "description": "mouse",
@@ -29,6 +53,41 @@
         "description": "livro",
         "isExtraImport": true,
         "detail": "livro",
+        "documentation": {}
+    },
+    {
+        "label": "Livro",
+        "importPath": "livro",
+        "description": "livro",
+        "isExtraImport": true,
+        "detail": "livro",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
         "documentation": {}
     },
     {
@@ -290,6 +349,105 @@
         "description": "tarefa011.exercicio02.produto_teste",
         "peekOfCode": "produto_teste = ProdutoTeste()\nproduto_teste.adicionar_ao_carrinho(Mouse(\"Loja A\", 50.0, \"Mouse óptico, Saída USB. 1.600 dpi\"))\nproduto_teste.adicionar_ao_carrinho(Livro(\"Loja B\", 30.0, \"Autor 1\"))\nproduto_teste.adicionar_ao_carrinho(Livro(\"Loja C\", 40.0, \"Autor 2\"))\nproduto_teste.adicionar_ao_carrinho(Mouse(\"Loja D\", 25.0, \"Mouse Logitech\"))\nproduto_teste.exibir_descricao_carrinho()",
         "detail": "tarefa011.exercicio02.produto_teste",
+        "documentation": {}
+    },
+    {
+        "label": "Teste",
+        "kind": 6,
+        "importPath": "tarefa012.exercicio01",
+        "description": "tarefa012.exercicio01",
+        "peekOfCode": "class Teste:\n    def __init__(self):\n        self.vetores = [\n            [random.randint(0, 100) for _ in range(100)],\n            [random.randint(0, 1000) for _ in range(1000)],\n            [random.randint(0, 10000) for _ in range(10000)]\n        ]\n    def testar_algoritmos(self):\n        for vetor in self.vetores:\n            print(f\"Vetor com {len(vetor)} elementos:\")",
+        "detail": "tarefa012.exercicio01",
+        "documentation": {}
+    },
+    {
+        "label": "quick_sort_iterativo",
+        "kind": 2,
+        "importPath": "tarefa012.exercicio01",
+        "description": "tarefa012.exercicio01",
+        "peekOfCode": "def quick_sort_iterativo(vetor):\n    if len(vetor) <= 1:\n        return vetor\n    pilha = [(0, len(vetor) - 1)]\n    while pilha:\n        inicio, fim = pilha.pop()\n        if inicio >= fim:\n            continue\n        pivo = vetor[fim]\n        i = inicio",
+        "detail": "tarefa012.exercicio01",
+        "documentation": {}
+    },
+    {
+        "label": "quick_sort_recursivo",
+        "kind": 2,
+        "importPath": "tarefa012.exercicio01",
+        "description": "tarefa012.exercicio01",
+        "peekOfCode": "def quick_sort_recursivo(vetor, inicio=0, fim=None):\n    if fim is None:\n        fim = len(vetor) - 1\n    if inicio >= fim:\n        return\n    pivo = vetor[fim]\n    i = inicio\n    for j in range(inicio, fim):\n        if vetor[j] < pivo:\n            vetor[i], vetor[j] = vetor[j], vetor[i]",
+        "detail": "tarefa012.exercicio01",
+        "documentation": {}
+    },
+    {
+        "label": "Contato",
+        "kind": 6,
+        "importPath": "tarefa012.exercicio02",
+        "description": "tarefa012.exercicio02",
+        "peekOfCode": "class Contato:\n    def __init__(self, nome, email):\n        self.nome = nome\n        self.email = email\n    def get_nome(self):\n        return self.nome\n    def get_email(self):\n        return self.email\nclass Agenda:\n    def __init__(self, tamanho):",
+        "detail": "tarefa012.exercicio02",
+        "documentation": {}
+    },
+    {
+        "label": "Agenda",
+        "kind": 6,
+        "importPath": "tarefa012.exercicio02",
+        "description": "tarefa012.exercicio02",
+        "peekOfCode": "class Agenda:\n    def __init__(self, tamanho):\n        self.contatos = []\n    def adicionar_contato(self, contato):\n        self.contatos[len(self.contatos)] = contato\n    def buscar_contato(self, nome=None, email=None):\n        for i in range(len(self.contatos)):\n            if self.contatos[i].get_nome() == nome or self.contatos[i].get_email() == email:\n                return self.contatos[i]\n        return None",
+        "detail": "tarefa012.exercicio02",
+        "documentation": {}
+    },
+    {
+        "label": "Livro",
+        "kind": 6,
+        "importPath": "tarefa013.exercicio02.livro",
+        "description": "tarefa013.exercicio02.livro",
+        "peekOfCode": "class Livro(Produto):\n    def __init__(self, nomeloja, preco, autor):\n        super().__init__(nomeloja, preco)\n        self._autor = autor\n    def get_autor(self):\n        return self._autor\n    def set_autor(self, autor):\n        self._autor = autor\n    def get_descricao(self):\n        return super().get_descricao() + f\", {self._autor}\"",
+        "detail": "tarefa013.exercicio02.livro",
+        "documentation": {}
+    },
+    {
+        "label": "Mouse",
+        "kind": 6,
+        "importPath": "tarefa013.exercicio02.mouse",
+        "description": "tarefa013.exercicio02.mouse",
+        "peekOfCode": "class Mouse(Produto):\n    def __init__(self, nomeloja, preco, tipo):\n        super().__init__(nomeloja, preco)\n        self._tipo = tipo\n    def get_tipo(self):\n        return self._tipo\n    def set_tipo(self, tipo):\n        self._tipo = tipo\n    def get_descricao(self):\n        return super().get_descricao() + f\", {self._tipo}\"",
+        "detail": "tarefa013.exercicio02.mouse",
+        "documentation": {}
+    },
+    {
+        "label": "Produto",
+        "kind": 6,
+        "importPath": "tarefa013.exercicio02.produto",
+        "description": "tarefa013.exercicio02.produto",
+        "peekOfCode": "class Produto:\n    def __init__(self, nomeloja, preco):\n        self._nomeloja = nomeloja\n        self._preco = preco\n        self._descricao = \"Produto de informática\"\n    def get_nomeloja(self):\n        return self._nomeloja\n    def set_nomeloja(self, nomeloja):\n        self._nomeloja = nomeloja\n    def get_preco(self):",
+        "detail": "tarefa013.exercicio02.produto",
+        "documentation": {}
+    },
+    {
+        "label": "ProdutoInvalidoException",
+        "kind": 6,
+        "importPath": "tarefa013.exercicio02.produto_teste",
+        "description": "tarefa013.exercicio02.produto_teste",
+        "peekOfCode": "class ProdutoInvalidoException(Exception):\n    pass\nclass ProdutoTeste:\n    def __init__(self):\n        self.carrinho = []\n    def adicionar_ao_carrinho(self, produto):\n        if not isinstance(produto, (Mouse, Livro)):\n            raise ProdutoInvalidoException(\"Tipo de Produto inválido\")\n        self.carrinho.append(produto)\n    def exibir_descricao_carrinho(self):",
+        "detail": "tarefa013.exercicio02.produto_teste",
+        "documentation": {}
+    },
+    {
+        "label": "ProdutoTeste",
+        "kind": 6,
+        "importPath": "tarefa013.exercicio02.produto_teste",
+        "description": "tarefa013.exercicio02.produto_teste",
+        "peekOfCode": "class ProdutoTeste:\n    def __init__(self):\n        self.carrinho = []\n    def adicionar_ao_carrinho(self, produto):\n        if not isinstance(produto, (Mouse, Livro)):\n            raise ProdutoInvalidoException(\"Tipo de Produto inválido\")\n        self.carrinho.append(produto)\n    def exibir_descricao_carrinho(self):\n        for produto in self.carrinho:\n            print(produto.get_descricao())",
+        "detail": "tarefa013.exercicio02.produto_teste",
+        "documentation": {}
+    },
+    {
+        "label": "produto_teste",
+        "kind": 5,
+        "importPath": "tarefa013.exercicio02.produto_teste",
+        "description": "tarefa013.exercicio02.produto_teste",
+        "peekOfCode": "produto_teste = ProdutoTeste()\ntry:\n    produto_teste.adicionar_ao_carrinho(Mouse(\"Loja A\", 50.0, \"Mouse óptico, Saída USB. 1.600 dpi\"))\n    produto_teste.adicionar_ao_carrinho(Livro(\"Loja B\", 30.0, \"Autor 1\"))\n    produto_teste.adicionar_ao_carrinho(\"Produto inválido\") # Lança ProdutoInvalidoException\n    produto_teste.adicionar_ao_carrinho(Livro(\"Loja C\", 40.0, \"Autor 2\"))\n    produto_teste.adicionar_ao_carrinho(Mouse(\"Loja D\", 25.0, \"Mouse Logitech\"))\nexcept ProdutoInvalidoException as e:\n    print(e)\nproduto_teste.exibir_descricao_carrinho()",
+        "detail": "tarefa013.exercicio02.produto_teste",
         "documentation": {}
     }
 ]
