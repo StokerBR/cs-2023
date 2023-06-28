@@ -1,0 +1,21 @@
+Expressões regulares para validação de cada objeto:
+
+- Data (dd/mm/aa): `^\d{2}/\d{2}/\d{2}$`
+- Data (dd/mm/aaaa): `^\d{2}/\d{2}/\d{4}$`
+- Data (dd/mm/aaaa hh:mm:ss): `^\d{2}/\d{2}/\d{4} \d{2}:\d{2}:\d{2}$`
+- Data (yy/mm/dd): `^\d{2}/\d{2}/\d{2}$`
+- Data (yyyy/mm/dd): `^\d{4}/\d{2}/\d{2}$`
+- Número decimal (dd.ddd.ddd): `^\d{1,3}(\.\d{3})*,\d{1,5}$`
+- Nomes de Arquivos / documentos (nome.(doc,docx,xls,xlsx,pdf,csv,txt)): `^[a-zA-Z0-9\-\_]*\.(doc|docx|xls|xlsx|pdf|csv|txt)$`
+- E-mail (nome@dominio): `^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(com|com\.br|goias\.gov\.br|(mil|gov|esp|edu)\.(br|ar|uk|fr|ru|es|it))$`
+- Código Cor HTML (#00ccff): `^#[0-9a-fA-F]{6}$`
+- Arquivo de Imagem (\_.(jpg,gif,png), etc.): `^[a-zA-Z0-9\-\_]*\.(jpg|gif|png)$`
+- Endereço IP (192.168.1.1): `^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$`
+- Arquivos Multimedia (\_.(swf,mov,wma,mpg,mp3,wav)): `^[a-zA-Z0-9\-\_]*\.(swf|mov|wma|mpg|mp3|wav)$`
+- Telefone (BR) ((11) 5555-1977): `^\(\d{2}\) \d{4}-\d{4}$`
+- Celular (BR) ((55) (62) 9834.1243): `^\(\d{2}\) \(\d{2}\) \d{4}\.\d{4}$`
+- Hora (HH:MM): `^\d{2}:\d{2}$`
+- Hora (HH:MM:SS): `^\d{2}:\d{2}:\d{2}$`
+- URL (http://www.google.com, https://www.google.com.br): `^(http|https)://www\.[a-zA-Z0-9]+\.(com|com\.br)$`
+- Domínio (www.yahoo.com, www.yahoo.com.br): `^www\.[a-zA-Z0-9]+\.(com|com\.br)$`
+- Telefone Internacional (1.245.532.3422): `^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,4}$`
